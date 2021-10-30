@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+	<title> Product Filter </title>
+
+	<style>
+	   .{
+		margin:0px;
+		padding:0px;
+	    }
+
+	   .data{
+		  width:80%;
+		  padding-top:40px;
+		  padding-bottom:40px;
+		  //background-color: red;
+		  margin-left:7%;
+		  padding-right:20%;
+		  padding-left:20%;
+		  font-family:arial;
+		}
+
+	   table{
+		width:100%;
+		margin-top:30px;
+		border:none;
+		}
+
+
+	   th,td{
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+		font-size:20px;
+		
+	     }
+
+	   td{
+		color:grey;
+	      }
+
+	   #Hello{
+		   height:200px;
+		   width:200px;
+		   background-color:red;
+		}
+
+	  #searchName{
+		   height:40px;
+		   width:100%;
+		   text-indent:20px;
+		   margin-top:20px		
+		}
+	
+	</style>
+
+
+   </head>
+
+
+   <body>
+	<div class = "data" >
+		<h1>All Products</h1>
+		
+		<div id = "search">
+		   <input placeholder = "Search By Name" id = "searchName" onkeyup = "searchByName()"/>
+		</div>
+
+
+		<table class = "table" border = "1" cellspacing = "0">
+		   <thead>
+			<tr>
+			   <th> No </th>
+			   <th> Name </th>
+			   <th> Price </th>
+			   <th> Category </th>
+			   <th> Color </th>
+			   <th> Quantity </th> 
+			</tr>
+		   </thead>
+
+
+		   <tbody id = "tab-data">
+			
+		   <tbody>
+
+		</table>
+
+
+
+
+
+
+
+	<script src = "index.js"> </script>
+
+   </body>
+</html>
